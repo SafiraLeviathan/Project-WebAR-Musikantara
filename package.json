@@ -1,0 +1,24 @@
+{
+  "name": "nada-nusantara",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "bun@1.3.3",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k \"bun run dev:api\" \"bun run dev:web\"",
+    "dev:api": "bun --cwd backend run dev",
+    "dev:web": "bun --cwd frontend run dev",
+    "build": "bun --cwd frontend run build",
+    "typecheck": "bun --cwd frontend run typecheck && bun --cwd backend run typecheck",
+    "check:assets": "bun run scripts/check-assets.ts",
+    "preview": "bun run build && bunx wrangler dev",
+    "deploy": "bun run check:assets && bun run build && bunx wrangler deploy"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "wrangler": "^4.46.1"
+  }
+}
