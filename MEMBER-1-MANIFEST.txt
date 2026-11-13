@@ -1,0 +1,30 @@
+Musikantara-Member-1-Frontend.zip
+
+OWNER: Member 1
+ROLE: Frontend, assets, shared root configuration, integration documentation.
+
+INCLUDED PATHS:
+- apps/web/src/**
+- assets/** (original, canonical supplied assets)
+- tests/frontend/**
+- scripts/**
+- docs/AR-TARGET-MAPPING.md
+- docs/AR-TARGET-MAPPING.json
+- docs/QA-REPORT.md
+- index.html
+- package.json
+- vite.config.ts
+- tsconfig.json
+- wrangler.jsonc
+- .gitignore
+- README.md
+- MEMBER-1-MANIFEST.txt
+- MEMBER-1-FILE-MANIFEST.txt
+
+EXCLUDED:
+- worker/** and tests/worker/** (Member 2)
+- package-lock.json (npm registry DNS was unavailable in the build environment; run npm install after extraction to generate it)
+- node_modules, dist, .git, generated public/assets, generated MediaPipe WASM, secrets, and temporary files.
+
+EXTRACTION:
+Extract this ZIP into the repository/project root. Then extract Member 2 ZIP into the same root. Assets retain their original relative paths.
