@@ -1,0 +1,19 @@
+{
+  "name": "musikantara-backend",
+  "private": true,
+  "version": "1.0.6",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --config wrangler.jsonc --ip 127.0.0.1 --port 8787",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "preview": "wrangler dev --config wrangler.jsonc --ip 127.0.0.1 --port 8787",
+    "deploy": "wrangler deploy --config wrangler.jsonc"
+  },
+  "dependencies": {
+    "hono": "4.13.19"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "wrangler": "4.165.0"
+  }
+}
