@@ -1,0 +1,7 @@
+{
+  "name": "canvas",
+  "version": "2.11.2",
+  "private": true,
+  "main": "index.js",
+  "description": "Browser-build placeholder for MindAR's Node-only target compiler dependency."
+}

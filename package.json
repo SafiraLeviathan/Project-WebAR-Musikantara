@@ -1,0 +1,28 @@
+{
+  "name": "musikantara-workspace",
+  "private": true,
+  "version": "1.0.6",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run typecheck --workspace frontend && npm run build --workspace frontend && npm run typecheck --workspace backend",
+    "preview": "npm run build && npm run preview --workspace backend",
+    "deploy": "npm run build && npm run deploy --workspace backend",
+    "postinstall": "npm run patch:mindar --workspace frontend && npm run copy:mediapipe --workspace frontend"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10.0.0"
+  },
+  "overrides": {
+    "mind-ar": {
+      "canvas": "file:../../vendor/canvas-browser-stub"
+    }
+  }
+}
