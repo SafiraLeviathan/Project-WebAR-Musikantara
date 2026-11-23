@@ -20,7 +20,7 @@ Aplikasi dapat dibuka langsung melalui browser tanpa membuat akun.
 
 ## Cara menggunakan
 
-1. Buka [Musikantara](https://musikantara-web.musikantara.workers.dev) melalui browser.
+1. Buka [Musikantara](https://musikantara-web.untitledprojects.workers.dev) melalui browser.
 2. Izinkan akses kamera ketika diminta.
 3. Buka menu **Scan AR**, lalu arahkan kamera belakang ke salah satu kartu AR.
 4. Setelah alat musik terdeteksi, lihat model 3D dan gunakan tombol suara atau kontrol yang tersedia.
