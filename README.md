@@ -31,7 +31,7 @@ Aplikasi dapat dibuka langsung melalui browser tanpa membuat akun.
 
 - Gunakan browser modern dan koneksi internet. Akses kamera memerlukan izin browser.
 - Untuk deteksi gestur yang lebih stabil, hasil pengujian menunjukkan tangan perlu berada sekitar **20 cm atau lebih** dari kamera depan. Jarak 5–10 cm belum optimal.
-- Kelancaran model 3D bergantung pada kemampuan perangkat. Pada pengujian menggunakan **Redmi 10C**, gerakan model melalui gestur masih dapat mengalami lag.
+- Kelancaran model 3D bergantung pada kemampuan perangkat, jadi expect ada gerakan model melalui gestur masih dapat mengalami lag.
 - Penggunaan kamera depan dan belakang secara bersamaan bergantung pada dukungan HP dan browser. Jika gestur tidak berjalan baik, nonaktifkan mode gestur dan gunakan kontrol sentuh yang tersedia.
 
 ## Tentang project
