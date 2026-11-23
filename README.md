@@ -36,7 +36,7 @@ Aplikasi dapat dibuka langsung melalui browser tanpa membuat akun.
 
 ## Tentang project
 
-Musikantara dikembangkan sebagai media pembelajaran interaktif untuk memperkenalkan alat musik tradisional Indonesia. Aplikasi versi **1.0.6** dipublikasikan melalui Cloudflare Workers.
+Musikantara dikembangkan sebagai media pembelajaran interaktif untuk memperkenalkan alat musik tradisional Indonesia. Dipublikasikan melalui Cloudflare Workers.
 
 ---
 
