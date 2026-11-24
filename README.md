@@ -6,7 +6,7 @@ Musikantara adalah aplikasi web edukatif yang membantu pengguna mengenal lima al
 
 ## Buka aplikasi
 
-**[Buka Musikantara](https://musikantara-web.musikantara.workers.dev)**
+**[Buka Musikantara](https://musikantara-web.untitledprojects.workers.dev/)**
 
 Aplikasi dapat dibuka langsung melalui browser tanpa membuat akun.
 
